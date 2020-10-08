@@ -1,11 +1,10 @@
 import React from 'react';
+import './core/assets/styles/custom.scss';
+import './app.scss';
+import Navbar from './core/components/Navbar';
 
 const App = () => {
-  return (
-    <div className="container mt-5">
-      <h1>App</h1>
-    </div>
-  );
+  return <Navbar />;
 };
 
 export default App;
